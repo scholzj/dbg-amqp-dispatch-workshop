@@ -15,7 +15,7 @@
 ```
 * Start multiple receivers:
 ```
-./receiver.sh &
+./receiver.sh
 ```
 * Show connections on the router:
 ```
