@@ -4,28 +4,16 @@
 ```
 ./start.sh
 ```
-* Open [GUI](http://localhost:8080)
-* Add second broker to the GUI
-* Send messages:
+* Start the receiver (ConnectionSeparationDemonstrator)
+* Send message to first broker:
 ```
-./sender.sh
+./send_broker1.sh
 ```
-* Receive messages:
+* Send message to second broker:
 ```
-./receiver.sh
+./send_broker2.sh
 ```
-* Start multiple receivers:
-```
-./receiver.sh
-```
-* Show connections on the router:
-```
-./connections_router.sh
-```
-* Show connections on the broker:
-```
-./connections_broker.sh
-```
+* Show how the client received both messages
 * Stop everything:
 ```
 ./stop.sh
